@@ -3,10 +3,14 @@ How to run lit-llama
 
 ### Commands:
 
+### Clone the repo:
+
 ```
 git clone https://github.com/Lightning-AI/lit-llama
 cd lit-llama
 ```
+### Install the requirements:
+
 ```
 pip install -r requirements.txt
 ```
