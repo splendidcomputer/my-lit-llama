@@ -28,8 +28,8 @@ python generate.py --quantize llm.int8 --prompt "Hello, my name is"
 ### Create links
 
 ```
-ln -s /home/mostafa/programming/models/llama/pyllama_data/7B/consolidated.00.pth data/checkpoints/foo/7B/lit-llama.pth
+ln -s /home/mostafa/programming/models/llama/pyllama_data/7B/consolidated.00.pth checkpoints/lit-llama/7B/lit-llama.pth
 ```
 ```
-ln /home/mostafa/programming/models/llama/pyllama_data/tokenizer.model data/checkpoints/foo/tokenizer.model
+ln -s /home/mostafa/programming/models/llama/pyllama_data/tokenizer.model checkpoints/lit-llama/tokenizer.model
 ```
