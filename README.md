@@ -15,7 +15,7 @@ cd lit-llama
 pip install -r requirements.txt
 ```
 
-### To download llama weights data:
+### Download llama weights data:
 
 ```
 python scripts/download.py --repo_id openlm-research/open_llama_7b --local_dir checkpoints/open-llama/7B
