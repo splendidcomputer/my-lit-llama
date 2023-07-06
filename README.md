@@ -7,4 +7,6 @@ How to run lit-llama
 git clone https://github.com/Lightning-AI/lit-llama
 cd lit-llama
 ```
-
+```
+pip install -r requirements.txt
+```
