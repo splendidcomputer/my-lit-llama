@@ -10,3 +10,7 @@ cd lit-llama
 ```
 pip install -r requirements.txt
 ```
+
+```
+python generate.py --quantize llm.int8 --prompt "Hello, my name is"
+```
