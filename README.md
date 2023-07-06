@@ -1,7 +1,7 @@
 # my-lit-llama
 How to run lit-llama
 
-### Commands:
+## Commands:
 
 ### Clone the repo:
 
