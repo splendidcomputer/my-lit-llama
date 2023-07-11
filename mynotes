@@ -6,4 +6,5 @@ install pip
 install conda
 git clone https://github.com/Lightning-AI/lit-llama
 cd lit-llama
+add /home/mostafa/ to path
 pip install -r requirements.txt
