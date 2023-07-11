@@ -1,4 +1,6 @@
+install nvidia driver 525
 install chrome
+install vscode
 install git
 install pip
 install conda
