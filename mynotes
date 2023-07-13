@@ -13,7 +13,7 @@ install pip
 install conda
 git clone https://github.com/Lightning-AI/lit-llama
 cd lit-llama
-add ```/home/mostafa``` to path
+add ```/home/mostafa``` to path ==> export PATH="/home/mostafa:$PATH"
 pip install -r requirements.txt
 # Download model weights
 python scripts/download.py --repo_id openlm-research/open_llama_7b --local_dir checkpoints/open-llama/7B
