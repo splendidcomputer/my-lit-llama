@@ -1,4 +1,8 @@
-install nvidia driver 525
+sudo apt update
+sudo apt upgrade
+ubuntu-drivers devices
+sudo ubuntu-drivers autoinstall
+conda install cudatoolkit=11.7 -c nvidia
 install chrome
 install vscode
 install git
