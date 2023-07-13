@@ -2,6 +2,9 @@ sudo apt update
 sudo apt upgrade
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
+install anaconda
+conda create -n ll
+conda activate ll
 conda install cudatoolkit=11.7 -c nvidia
 install chrome
 install vscode
