@@ -2,15 +2,14 @@ sudo apt update
 sudo apt upgrade
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
-install anaconda
-conda create -n ll
-conda activate ll
-conda install cudatoolkit=11.7 -c nvidia
 install chrome
 install vscode
 install git
 install pip
-install conda
+install Anaconda
+conda create -n ll
+conda activate ll
+conda install cudatoolkit=11.7 -c nvidia
 git clone https://github.com/Lightning-AI/lit-llama
 cd lit-llama
 add ```/home/mostafa``` to path ==> export PATH="/home/mostafa:$PATH"
