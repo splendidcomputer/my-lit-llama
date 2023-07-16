@@ -4,7 +4,7 @@ ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 sudo apt install git
 sudo apt install python3-pip
-install Anaconda
+Download Anaconda form: https://www.anaconda.com/download
 conda create -n ll
 conda activate ll
 conda install cudatoolkit=11.7 -c nvidia
