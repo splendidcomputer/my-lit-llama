@@ -19,3 +19,4 @@ python3 scripts/download.py --repo_id openlm-research/open_llama_7b --local_dir 
 python3 scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/open-llama/7B --model_size 7B
 # Install SciPy
 pip install scipy
+python3 generate.py --quantize llm.int8 --prompt "Hello, my name is"
