@@ -5,7 +5,7 @@ sudo ubuntu-drivers autoinstall
 sudo apt install git
 sudo apt install python3-pip
 Download Anaconda form: https://www.anaconda.com/download
-Ex: sudo bash Anaconda3-2023.07-1-Linux-x86_64.sh
+Ex: bash Anaconda3-2023.07-1-Linux-x86_64.sh
 conda create -n ll
 conda activate ll
 conda install cudatoolkit=11.7 -c nvidia
