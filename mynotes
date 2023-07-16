@@ -2,10 +2,8 @@ sudo apt update
 sudo apt upgrade
 ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
-install chrome
-install vscode
 sudo apt install git
-install pip
+sudo apt install python3-pip
 install Anaconda
 conda create -n ll
 conda activate ll
