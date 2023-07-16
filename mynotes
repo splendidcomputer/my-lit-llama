@@ -4,7 +4,7 @@ ubuntu-drivers devices
 sudo ubuntu-drivers autoinstall
 install chrome
 install vscode
-install git
+sudo apt install git
 install pip
 install Anaconda
 conda create -n ll
