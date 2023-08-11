@@ -27,8 +27,7 @@ python3 generate.py --quantize llm.int8 --prompt "Hello, my name is"
 
 # Creating the Python API
 pip install Flask
-curl -LJO https://github.com/splendidcomputer/my-lit-llama/raw/main/API.py
-
+curl -o API.py https://raw.githubusercontent.com/splendidcomputer/my-lit-llama/main/API.py?token=GHSAT0AAAAAACFILF32TRSFX2ASF4KXBAFSZGWKFGA
 
 # Runnig the API
 python3 API.py
