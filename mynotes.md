@@ -1,3 +1,4 @@
+```
 sudo apt update
 sudo apt upgrade
 ubuntu-drivers devices
@@ -23,3 +24,4 @@ python3 scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/open-llama
 # Install SciPy
 pip install scipy
 python3 generate.py --quantize llm.int8 --prompt "Hello, my name is"
+```
