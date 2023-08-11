@@ -24,4 +24,15 @@ python3 scripts/convert_hf_checkpoint.py --checkpoint_dir checkpoints/open-llama
 # Install SciPy
 pip install scipy
 python3 generate.py --quantize llm.int8 --prompt "Hello, my name is"
+
+# Creating the Python API
+pip install Flask
+curl -LJO https://github.com/splendidcomputer/my-lit-llama/raw/main/API.py
+
+
+# Runnig the API
+python3 API.py
+
+curl -X POST -H "Content-Type: application/json" -d '{"prompt": "Hello, my name is"}' http://127.0.0.1:5000/chat
+
 ```
