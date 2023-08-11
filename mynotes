@@ -12,6 +12,9 @@ conda install cudatoolkit=11.7 -c nvidia
 git clone https://github.com/Lightning-AI/lit-llama
 cd lit-llama
 add ```/home/mostafa``` to path ==> export PATH="/home/mostafa:$PATH"
+sudo apt-get install python3-venv
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 # Download model weights
 python3 scripts/download.py --repo_id openlm-research/open_llama_7b --local_dir checkpoints/open-llama/7B
